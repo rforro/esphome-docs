@@ -11,6 +11,7 @@ Models
 ------
 With this display driver you can control the following displays:
   - GC9A01A
+  - GC9D01N
   - ILI9341
   - ILI9342
   - ILI9481
