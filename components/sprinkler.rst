@@ -643,8 +643,7 @@ could easily be added by adding the ``pump_switch_id`` parameter and a :ref:`swi
 
     esphome:
         name: esp-sprinkler-controller
-
-    esp32:
+        platform: ESP32
         board: featheresp32
 
     wifi:
@@ -674,8 +673,7 @@ This example illustrates a complete, simple three-valve system with no pump/upst
 
     esphome:
         name: esp-sprinkler-controller
-
-    esp32:
+        platform: ESP32
         board: featheresp32
 
     wifi:
@@ -726,8 +724,7 @@ This example illustrates a complete three-valve system with a single pump/upstre
 
     esphome:
         name: esp-sprinkler-controller
-
-    esp32:
+        platform: ESP32
         board: featheresp32
 
     wifi:
@@ -791,8 +788,7 @@ a common pump/upstream valve.
 
     esphome:
       name: esp-sprinkler-controller
-
-    esp32:
+      platform: ESP32
       board: featheresp32
 
     wifi:
@@ -870,8 +866,7 @@ valves, each of which are shared between the two controllers:
 
     esphome:
         name: esp-sprinkler-controller
-
-    esp32:
+        platform: ESP32
         board: featheresp32
 
     wifi:
